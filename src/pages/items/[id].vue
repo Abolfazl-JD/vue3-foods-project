@@ -13,6 +13,10 @@ const currentItem = computed(() => {
     }
 })
 
+useHead({
+    title: computed(() => currentItem.value.item),
+})
+
 </script>
 
 <template>

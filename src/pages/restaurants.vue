@@ -12,6 +12,10 @@ const filteredFoodData = computed(() => {
         dataInfo.fooddata.filter(el => el.name.toLowerCase().includes(chosenFood.value)) :
         dataInfo.fooddata
 })
+
+useHead({
+    title: 'restaurants',
+})
 </script>
 
 <template>

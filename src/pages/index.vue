@@ -3,7 +3,7 @@ import { storeData } from '../stores/data'
 const dataInfo = storeData()
 
 useHead({
-    title: 'Store website',
+    title: 'foods app',
 })
 </script>
 
