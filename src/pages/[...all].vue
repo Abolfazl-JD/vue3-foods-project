@@ -15,7 +15,7 @@ useHead(head)
 
 <template>
     <div>
-        <h1>The page you are looking for has not found</h1>
+        <h1>The page you are looking for was not found</h1>
         <router-link to="/">Back to homepage</router-link>
     </div>
 </template>
