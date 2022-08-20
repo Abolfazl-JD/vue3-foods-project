@@ -2,13 +2,7 @@
 </script>
 
 <template>
-  <div>
-    <div class="content">
-      <AppMenu />
-      <RouterView />
-    </div>
-    <AppFooter/>
-  </div>
+    <RouterView />
 </template>
 
 <style lang="scss">
